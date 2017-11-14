@@ -1,0 +1,241 @@
+*{margin:0; padding:0;}
+
+	.manu{
+		margin-top:20px;
+		
+	}
+.navbar-default{
+	background-color:transparent;
+	border:none;
+}
+.navbar-brand{
+	background-color:cyan;
+	font-size:30px;
+	transform:skewy(30deg);
+	transition:.5s;
+}
+
+.navbar-brand:hover{
+	transform:rotate(360deg);
+}
+
+.navbar-right li a{
+	background-color:cyan;
+	font-size:20px;
+	transform:skewy(30deg);
+	transition:.5s;
+}
+
+.navbar-right li a:hover{
+	transform:rotate(360deg);
+}
+
+
+.border{
+	width:800px;
+	height:10px;
+	border-bottom:4px solid gray;
+	margin-top:50px;
+	margin-left:150px;
+	position:relative;
+	
+}
+
+.border h2{
+	width:50px;
+	height:50px;
+	background-color:white;
+	color:gray;
+	border-radius:50%;
+	text-align:center;
+	font-size:40px;
+	position:absolute;
+	left:50%;
+	top:-36px;
+}
+
+.sidebar{
+	float:left;
+	width:700px;
+	height:450px;
+	margin-top:70px;
+	background-image:url(../pic/rowan-heuvel-21410.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:inline-block;
+	
+}
+
+.sidebar h1{
+	text-align:center;
+	color:white;
+	font-size:40px;
+	margin-top:300px;
+}
+.sidebar p{
+	width:450px;
+	text-align:center;
+	color:white;
+	font-size:18px;
+	margin-left:100px;
+}
+
+.sign_up{
+	width:265px;
+	height:500px;
+	margin-top:70px;
+	float:right;
+}
+
+
+	p{margin:0; padding:0;}
+	.regi_form{
+		width:260px;
+		height:450px;
+		background-color:#4b4f4e;
+		color:white;
+		padding:10px;
+	}
+	
+	.regi_form h4{
+		
+		font-size:20px;
+		font-family:arial;
+		margin-bottom:8px;
+	}
+	.regi_form span{
+		color:orange;
+	}
+	
+	.regi_form h2{
+		font-size:22px;
+		font-family:arial;
+		margin-bottom:20px;
+	}
+	
+	.regi_form p{
+		font-size:20px;
+		font-family:arial;
+	}
+	
+	.regi_form input{
+		width:240px;
+		height:28px;
+		margin-bottom:15px;
+		border-radius:5px;
+		border:none;
+		font-size:20px;
+		font-family:arial;
+		
+	}
+	
+	.regi_form input.sign_up{
+		margin-top:10px;
+		height:35px;
+		background-color:orange;
+		border:1px solid orange;
+		cursor:pointer;
+	}
+	
+	.regi_form input.sign_up:hover{
+		background-color:yellow;
+		color:white;
+	}
+	
+	.icon{
+		width:1140px;
+		height:400px;
+		background-color:#bef5de;
+		margin-bottom:30px;
+		display:inline-block;
+		box-shadow:15px 15px 60px black;
+	}
+	
+	.symbol{
+		width:700px;
+		height:250px;
+		margin:80px auto;
+		
+	}
+	
+	.one{
+		width:200px;
+		height:200px;
+		float:left;
+		margin:20px 15px;
+		
+	}
+	
+	.coffe{
+		margin:25px 25px;
+	}
+	
+	.one h3{
+		text-align:center;
+		color:blue;
+		font-size:20px;
+	}
+	
+	.footer{
+		width:1140px;
+		height:400px;
+		margin:10px 0px;
+		background-color:#fdf5de;
+		box-shadow:15px 15px 60px black;
+	}
+	
+	.footer_main{
+		width:1000px;
+		height:300px;
+		margin:50px auto;
+	}
+	
+	.footer_image img{
+		width:500px;
+		height:300px;
+		margin-top:50px;
+		float:left;
+	}
+	
+	.footer_text{
+		width:460px;
+		height:200px;
+		margin-left:10px;
+		margin-top:190px;
+		float:left;
+	}
+	
+	.footer_text img{
+		width:100px;
+		height:100px;
+		margin-left:140px;
+		margin-top:-150px;
+		border:3px dashed yellow;
+		border-radius:50%;
+		box-shadow:5px 5px 15px black;
+		transform:rotate(0deg);
+		transition:5s;
+	}
+	
+	.footer_text img:hover{
+		transform:rotate(360deg);
+	}
+	
+	.footer_text p{
+		color:orange;
+		font-size:22px;
+		text-shadow:3px 3px 5px white;
+		margin-top:-20px;
+	}
+	.footer_text h4{
+		color:black;
+		font-size:20px;
+		
+		
+	}
+	.footer_text h2{
+		color:blCK;
+		font-size:25px;
+		
+		
+	}

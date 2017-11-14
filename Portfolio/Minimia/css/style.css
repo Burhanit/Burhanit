@@ -1,0 +1,367 @@
+*{margin:0; padding:0;}
+
+body{
+	background-color:fff;
+	font-family:arial;
+}
+
+.manu_bar{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+	
+}
+.logo{
+	width:200px;
+	height:50px;
+	float:left;
+	margin:20px;
+	
+	
+}
+
+
+.logo a{
+	text-decoration:none;
+	color:Black
+	
+}
+.logo h3{
+	font-size:50px;
+	
+}
+.logo h3:hover{
+	color:gray;
+}
+.manu{
+	width:800px;
+	height:70px;
+	float:right;
+	
+	
+}
+.manu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.manu ul li{
+	width:150px;
+	height:40px;
+	float:left;
+	margin:15px 5px;
+	
+}
+.manu ul li a{
+	text-decoration:none;
+	color:black;
+	font-size:35px;
+	display:block;
+	text-align:center;
+	text-shadow:0px 6px 5px black;
+	padding:5px 0px;
+}
+.manu ul li a:hover{
+	color:gray;
+}
+
+.slaider{
+	width:100%;
+	height:700px;
+	margin:auto;
+	background-image:url(../pics/firasat-durrani-39083.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.slaider_bar{
+	
+}
+.slaider_text{
+	width:900px;
+	height:100px;
+	margin:auto;
+	padding-top:200px;
+	
+}
+.slaider_text h2{
+	text-align:center;
+	font-size:50px;
+	color:white;
+}
+.slaider_text p{
+	margin-top:5px;
+	text-align:center;
+	font-size:25px;
+	color:white;
+}
+.slaider_btn{
+	width:500px;
+	height:50px;
+	margin:auto;
+	margin-top:50px;
+	background-image:linear-gradient(to top, red 0%, blue 0%, white 100%, green 0%);
+	border-radius:50px;
+}
+.slaider_btn h1{
+	text-align:center;
+	padding:8px;
+	color:gray;
+}
+.slaider_btn a{
+	text-decoration:none;
+}
+
+.slaider_btn:hover{
+	opacity:.90;
+}
+
+.information{
+	width:100%;
+	min-height:500px;
+	
+}
+.icon_bar{
+	width:1300px;
+	height:390px;
+	margin:auto;
+	margin-top:20px;
+	color:gray;
+	border-bottom:3px solid gray;
+}
+
+.icon_bar h4{
+	width:300px;
+	height:140px;
+	float:left;
+	margin-left:100px;
+	margin-top:50px;
+	font-size:100px;
+	text-align:center;
+}
+.text {
+	width:1300px;
+	height:200px;
+	
+	
+}
+.text h2 {
+	width:300px;
+	height:50px;
+	float:left;
+	margin-left:105px;
+	text-align:center;
+	font-size:30px;
+	color:gray;
+}
+.text p{
+	width:390px;
+	height:80px;
+	float:left;
+	margin-left:30px;
+	text-align:center;
+	font-size:20px;
+	color:gray;
+}
+.vedio_bar{
+	width:1200px;
+	height:700px;
+	margin:auto;
+	margin-top:80px;
+}
+
+.vedio_bar_text{
+	width:1000px;
+	height:150px;
+	margin:auto;
+}
+
+.vedio_bar_text h1{
+	width:1000px;
+	height:70px;
+	text-align:center;
+	font-size:50px;
+}
+.vedio_bar_text p{
+	width:770px;
+	height:70px;
+	margin:auto;
+	text-align:center;
+	font-size:20px
+}
+
+.vedio_bar_image{
+	width:900px;
+	height:500px;
+	margin:auto;
+	background-image:url(../pics/jeremy-bishop-93210.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-position;
+}
+
+.vedio_bar_image p{
+	font-size:40px;
+	display:inline-block;
+	text-align:center;
+	margin-top:50px;
+	padding-left:35px;
+	color:gray;
+}
+
+.vedio_bar_image p a{
+	text-decoration:none;
+	color:white;
+}
+.vedio_bar_image h1{
+	font-size:200px;
+	text-align:center;
+	color:red;
+	margin-top:50px;
+}
+
+.vedio_bar_image h1 a{
+	text-decoration:none;
+	color:red;
+}
+
+.vedio_bar h3{
+	width:600px;
+	height:200px;
+	margin:auto;
+	font-size:50px;
+	text-align:center;
+	padding-top:120px;
+	color:gray;
+	text-shadow:2px 5px 10px gray;
+}
+
+
+.brand{
+	width:1330px;
+	height:300px;
+	margin:auto;
+	margin-top:240px;
+	color:gray;
+}
+.single_brand{
+	width:310px;
+	height:300px;
+	margin-left:17px;
+	background-color:#D2D4D8;
+	float:left;
+	
+}
+
+
+
+.single_brand h2{
+	font-size:50p;
+	font-style:italic;
+	text-align:center;
+	margin-top:120px;
+	text-transform:uppercase;
+}
+.single_brand p{
+	text-align:center;
+	letter-spacing:3px;
+}
+
+.single_brand:hover{
+	background-color:gray;
+	opacity:.5;
+	color:white;
+	box-shadow:2px 5px 25px black;
+}
+
+.join{
+	width:100%;
+	height:400px;
+	background-color:#D2D4D8;
+	margin-top:120px;
+}
+.join_us{
+	width:800px;
+	height:300px;
+	margin:auto;
+}
+.join_us h1{
+	font-size:50px;
+	display:inline-block;
+	margin-top:110px;
+	margin-left:100px;
+	text-align:center;
+}
+.join_us p{
+	font-size:20px;
+	text-align:center;
+	margin-bottom:50px;
+}
+.join_us a{
+	text-decoration:none;
+	color:black;
+}
+.join_us h2{
+	width:400px;
+	height:30px;
+	margin:auto;
+	padding:6px;
+	text-align:center;
+	background-image:linear-gradient(to top, red 0%, white 100%, red 0%, green 0%);
+	border-radius:50px;
+}
+
+.icon_botton{
+	width:900px;
+	height:390px;
+	margin:auto;
+}
+.icon_botton h2{
+	width:150px;
+	height:110px;
+	float:left;
+	font-size:100px;
+	margin-top:120px;
+	margin-left:60px;
+	text-align:center;
+	border-radius:50px;
+	box-shadow:1px 3px 5px black;
+	transform:rotate(0deg);
+	transition:5s;
+}
+.icon_botton h2:hover{
+	color:green;
+	transform:rotate(360deg);
+}
+
+.footer{
+	width:100%;
+	height:400px;
+	background-color:#3B3B3B;
+	color:white;
+}
+.sigle_footer{
+	width:1300px;
+	height:400px;
+	margin:auto;
+	
+}
+.footer_text{
+	width:310px;
+	height:300px;
+	float:left;
+	margin-top:90px;
+	margin-left:15px;
+	
+	
+}
+.footer_text h2{
+	font-size:35px;
+	
+}
+.footer_text p{
+	font-size:25px;
+	padding-top:30px;
+	
+}

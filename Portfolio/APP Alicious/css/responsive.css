@@ -1,0 +1,175 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+.section{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.img{
+	max-width:100%;
+	height:auto;
+}
+//.selectnav{
+	display:none;
+}
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.section{
+	width:94%;
+}
+
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+	
+.logo h1 {
+    font-size: 30px;
+    color: #999;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+	
+}
+.m_img img {
+    width: 100%;
+}
+.future_one img {
+    margin-right: 10px;
+}
+.main_content h2 {
+    font-size: 30px;
+}
+
+.m_bottom {
+    width: 100%;
+}
+.m_bottom h3 {
+    padding: 10px 0;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.content {
+    width: 100%;
+    padding: 50px 0;
+    height: 500px;
+}
+.main_content p {
+    font-size: 14px;
+    padding: 12px 0;
+}
+.future_one h3 {
+    font-size: 16px;
+    float: left;
+    padding: 10px 5px;
+}
+.future_one {
+    width: 45%;
+    height: 200px;
+    margin-right: 18px;
+	margin-bottom: 8px;
+}
+.manu_search input {
+	display:none;
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.section{
+	width:98%;
+}
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.section{
+	width:98%;
+}		
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+.section{
+	width:98%;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,587 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+.img{
+	max-width:100%;
+	height:auto;
+}
+.selectnav{
+	display:none;
+}
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#nav{
+	display:none;
+}
+	
+.logo img{
+	width:100px;
+	height:80px;
+	display:block;
+	margin:0 auto;
+}
+.slaider_text h2{
+	font-size:30px;
+}
+.slaider_text p{
+	font-size:15px;
+}
+.slaider_btn h1{
+	font-size:30px;
+}
+
+.icon_bar{
+	height:800px;
+}
+.single_icon{
+	float: none;
+    width: 100%;
+	margin: 0 auto;
+    margin-bottom: 50px;
+}
+.icon_bar i{margin-left: 44%;}
+
+.vedio_bar_text h1{
+	 font-size: 20px;
+}
+.vedio_bar_text p{
+	 font-size: 15px;
+}
+
+.vedio_bar_image video{
+	margin-top: 0px;
+	height:auto;
+	margin:0 auto;
+}
+.vedio_bar h3{
+	height:0px;
+	font-size:30px;
+}
+
+.brand{
+	 margin-top: 80px;
+	 height:250px;
+}
+.single_brand h2{
+	font-size:20px;
+}
+.single_brand i{
+	font-size: 50px;
+}	
+.join_us h1{
+	 font-size: 30px;
+}	
+.join_us p{
+	 font-size: 16px;
+}
+.join_us h2{
+	font-size:13px;
+}
+.icon_botton{
+	width:90%;
+	margin-left:100px;
+	height:300px;
+}
+
+.icon_botton h2{
+	font-size: 70px;
+}
+.icon_botton h2 {
+    height: 88px;
+}
+.footer_text h2{
+	font-size:20px;
+	
+}
+.footer_text p{
+	font-size:16px;
+}
+.footer_bottom{
+	font-size:16px;
+}
+.margin{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.single_portfolio {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: none;
+	margin: 20px 0;
+}
+.single_portfolio h3{
+	margin-top:20%;
+}
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#nav{
+	display:none;
+}
+	
+.logo img{
+	width:100px;
+	height:80px;
+	display:block;
+	margin:0 auto;
+}
+.slaider_text h2{
+	font-size:30px;
+}
+.slaider_text p{
+	font-size:15px;
+}
+.slaider_btn h1{
+	font-size:15px;
+}
+.slaider_btn{
+	width:42%;
+	}
+.icon_bar{
+	height:770px;
+}
+.single_icon{
+	 float: none;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.icon_bar i{
+	margin-left: 44%;
+	font-size:50px;
+}
+
+.single_icon h2 {
+    font-size: 20px;
+   
+}
+.single_icon p{
+    font-size: 15px;
+   
+}
+.vedio_bar_text p {
+    width: 100%;
+}
+.vedio_bar_text h1{
+	 font-size: 20px;
+}
+.vedio_bar_text p{
+	 font-size: 15px;
+}
+
+.vedio_bar_image video{
+	margin-top: 0px;
+	height:auto;
+	margin:0 auto;
+}
+.vedio_bar h3{
+	height:0px;
+	font-size:30px;
+}
+
+.single_brand{
+	float:none;
+	width:100%;
+	margin-bottom:20px;
+}
+.brand{
+	margin-top: 80px;
+}
+.single_brand i{
+	margin-left: 44%;
+    margin-top: 10%;
+}
+	
+.join_us h1{
+	 font-size: 30px;
+}	
+.join_us p{
+	 font-size: 16px;
+}
+.join_us h2{
+	font-size:10px;
+}
+
+.join_us h2{
+    width: 43%;
+}
+.icon_botton{
+	width: 90%;
+    margin-left: 100px;
+    height: 465px;;
+}
+
+
+.icon_botton h2{
+    font-size: 65px;
+    width: 68%;
+    margin-left: -30px;
+    margin-top: 25px;
+    height: 75px;;
+}
+.my_map{display:none;}
+
+.footer_text h2{
+	font-size:11px;
+	
+}
+.footer_text p{
+	font-size:10px;
+}
+.footer_bottom{
+	font-size:13px;
+}
+.margin{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.single_portfolio {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: none;
+	margin: 20px 0;
+}
+.single_portfolio h3{
+	margin-top:20%;
+}
+.footer_bottom p {
+ font-size:10px;
+}
+.footer_bottom span{
+	float:none;
+}
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+		
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}
+#nav{
+	display:none;
+}
+		
+	
+.logo img{
+	width:100px;
+	height:80px;
+	display:block;
+	margin:0 auto;
+}
+.slaider_text h2{
+	font-size:30px;
+}
+.slaider_text p{
+	font-size:15px;
+}
+.slaider_btn h1{
+	font-size:16px;
+}
+
+.icon_bar{
+	height:800px;
+}
+.single_icon{
+	 float: none;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.icon_bar i{margin-left: 44%;}
+
+.vedio_bar_text h1{
+	 font-size: 20px;
+}
+.vedio_bar_text p{
+	 font-size: 15px;
+}
+
+.vedio_bar_image video{
+	margin-top: 0px;
+	height:auto;
+	margin:0 auto;
+}
+.vedio_bar h3{
+	height:0px;
+	font-size:30px;
+}
+
+.single_brand{
+	float:none;
+	width:100%;
+	margin-bottom:20px;
+}
+.brand{
+	margin-top: 80px;
+}
+.single_brand i{
+	margin-left: 44%;
+    margin-top: 10%;
+}	
+.join_us h1{
+	 font-size: 30px;
+}	
+.join_us p{
+	 font-size: 16px;
+}
+.join_us h2{
+    font-size: 11px;
+    line-height: 20px;
+	width: 44%;
+}
+.icon_botton{
+	width:90%;
+	margin-left:100px;
+	height:auto;
+}
+
+
+.icon_botton h2{
+	font-size: 80px;
+	margin-left: 25px;
+}
+
+.footer_text h2{
+	font-size:18px;
+	
+}
+.footer_text p{
+	font-size:14px;
+}
+.footer_bottom{
+	font-size:16px;
+}
+.margin{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.single_portfolio {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: none;
+	margin: 20px 0;
+}
+.single_portfolio h3{
+	margin-top:20%;
+}
+	
+	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}
+#nav{
+	display:none;
+}
+			
+	
+.logo img{
+	width:100px;
+	height:80px;
+	display:block;
+	margin:0 auto;
+}
+.slaider_text h2{
+	font-size:30px;
+}
+.slaider_text p{
+	font-size:15px;
+}
+.slaider_btn h1{
+	font-size:20px;
+}
+.icon_bar{
+	height:800px;
+}
+.single_icon{
+	 float: none;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.icon_bar i{margin-left: 44%;}
+
+.vedio_bar_text h1{
+	 font-size: 20px;
+}
+.vedio_bar_text p{
+	 font-size: 15px;
+}
+
+.vedio_bar_image video{
+	margin-top: 0px;
+	height:auto;
+	margin:0 auto;
+}
+.vedio_bar h3{
+	height:0px;
+	font-size:30px;
+}
+
+.brand{
+	 margin-top: 80px;
+	 height:250px;
+}
+.single_brand h2{
+	font-size:20px;
+}
+.single_brand i{
+	font-size: 50px;
+}	
+.join_us h1{
+	 font-size: 30px;
+}	
+.join_us p{
+	 font-size: 16px;
+}
+.join_us h2{
+	font-size:16px;
+}
+.icon_botton{
+	width:90%;
+	margin-left:100px;
+	height:auto;
+}
+
+.icon_botton h2{
+	font-size: 80px;
+}
+
+.footer_text h2{
+	font-size:20px;
+	
+}
+.footer_text p{
+	font-size:16px;
+}
+.footer_bottom{
+	font-size:16px;
+}
+.margin{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.single_portfolio {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: none;
+	margin: 20px 0;
+}
+.single_portfolio h3{
+	margin-top:20%;
+}
+
+
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
